@@ -23,5 +23,5 @@ jobs:
     - name: Upload files to GCS Bucket
       run: |
         gsutil cp index.html gs://website_hosting_gcs/
-        gsutil cp about.html gs://Ywebsite_hosting_gcs/
+        gsutil cp about.html gs://website_hosting_gcs/
         gsutil cp style.css gs://website_hosting_gcs/
